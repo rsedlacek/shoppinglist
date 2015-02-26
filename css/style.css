@@ -1,5 +1,5 @@
 html { 
-	background: url('C:/Users/RichardOffice/Desktop/Thinkful/Front End Development/Projects/shoppinglist/img/kitchenbackground.png') no-repeat center center fixed;
+	background: url('../img/kitchenbackground.png') no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -28,7 +28,7 @@ h2 {
  	height: 800px; 
  	width: 950px;
  	margin: -0.5em -1em;
- 	background: url('C:/Users/RichardOffice/Desktop/Thinkful/Front End Development/Projects/shoppinglist/img/cboardsmall.png');
+ 	background: url('../img/cboardsmall.png');
  	background-repeat: repeat-y;
  }
 

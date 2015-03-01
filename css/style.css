@@ -21,15 +21,13 @@ h2 {
 
 .main {
 	margin-top: -10px;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin: 0 auto;
  }
 
  .cuttingboard {
  	height: 800px; 
  	width: 950px;
- 	margin-left: auto;
- 	margin-right: auto;
+ 	margin: 0 auto;
  	background: url('../img/cboardsmall.png');
  	background-repeat: repeat-y;
  }
@@ -45,7 +43,7 @@ h2 {
 }
 
   #additem {
- 	margin-left: 22em;
+  	margin-left: 23em;
  	height:  30px;
  	width: 300px;
  }

@@ -21,13 +21,15 @@ h2 {
 
 .main {
 	margin-top: -10px;
-  	padding-left: 395px;
+  	margin-left: auto;
+  	margin-right: auto;
  }
 
  .cuttingboard {
  	height: 800px; 
  	width: 950px;
- 	margin: -0.5em -1em;
+ 	margin-left: auto;
+ 	margin-right: auto;
  	background: url('../img/cboardsmall.png');
  	background-repeat: repeat-y;
  }

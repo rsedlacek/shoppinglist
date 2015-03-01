@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 	<title>Shopping List</title>
@@ -17,26 +17,9 @@
 				<div class="cuttingboard">
 				<p>Add your items below - You can checkoff and/or remove items by hovering over them!</p>
 					<input id="additem">
-						<button type="submit" id="add">+</button><br>
+						<button type="submit" id="submit">+</button><br>
 					<ul id="list">
-						<li>
-							<img class="add" src="img/add.png">
-						<span class="li1">Chicken - Item still needed</span>
-							<img class="delete" src="img/delete.png">
-						</li>
-						<li>
-							<img class="add" src="img/add.png">
-						<span class="li2">Milk - Item still needed</span>
-							<img class="delete" src="img/delete.png">
-						</li>
-						<li>
-						<span class="li3">Eggs - Item in cart</span>
-							<img class="delete" src="img/delete.png">
-						</li>
-						<li>
-						<span class="li4">Bread - Item in cart</span>
-							<img class="delete" src="img/delete.png">
-						</li>
+						<li class="items"><img class="add" src="img/add.png"><span>Chicken</span><img class="delete" src="img/delete.png"></li>
 					</ul>
 				</div>
 			</div>

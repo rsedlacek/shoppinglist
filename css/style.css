@@ -26,7 +26,7 @@ h2 {
  }
 
  .cuttingboard {
- 	height: 800px; 
+ 	height: 850px; 
  	width: 950px;
  	margin: 0 auto;
  	background: url('../img/cboardsmall.png');
@@ -56,10 +56,9 @@ h2 {
  #list {
  	list-style-type: none;
  	text-align: left;
- 	font-family: 'Archivo Black', sans-serif;
+ 	font-family: 'Roboto Slab', serif;
  	color: #800000;
- 	font-weight: bolder;
- 	font-size: 16px;
+ 	font-size: 18px;
  	padding-left: 1em;	
  	padding-top: 0em;
  }
@@ -74,7 +73,7 @@ h2 {
   .delete {
  	height: 15px;
  	width: 15px;
- 	padding-left: 1.5em;
+ 	padding-left: 0.8em;
  	padding-top: 0.6em;
 }
 

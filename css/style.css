@@ -25,7 +25,7 @@ h2 {
  }
 
  .cuttingboard {
- 	height: 850px; 
+ 	height: auto;
  	width: 924px;
  	margin: 0 auto;
  	background: url('../img/cboardsmall.png');
@@ -62,9 +62,10 @@ h2 {
  	padding-left: 1em;	
  	padding-top: 0em;
  	cursor: pointer;
+ 	overflow: hidden;
  }
 
- .add {
+.add {
 	height: 20px;
 	width: 20px;
 	padding-right: 0.5em;

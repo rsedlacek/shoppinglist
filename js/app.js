@@ -8,7 +8,6 @@ $(document).ready(function(){
 		};
 	});
 
-
 // add items to list
 	$('#submit').click(function(){
 		var txtbox = document.getElementById('additem');
@@ -19,7 +18,6 @@ $(document).ready(function(){
 			alert('Please enter text to add to the list');
 		} else {
 			$('<li class="items"></li>').appendTo('#list').html('<img class="add" src="img/add.png"><span>' + txtval + '</span><img class="delete" src="img/delete.png"/>');
-
 		document.getElementById('additem').value = '';
 		};
 	});
@@ -27,11 +25,11 @@ $(document).ready(function(){
 // delete items from list
 	$('#list').on('click', '.delete', function(e){e.preventDefault(); $(this).parent().remove()});
 
-// cross off items from list
+// cross off items and remove checkmark
 	$('#list').on('click', 'li', function(){$(this).toggleClass('strike');});
 	$('#list').on('click', 'li', function(){$(this).children('.add').toggleClass('hide');});
 
-// make list sortable - LEFT OFF WITH FIGURING THIS OUT!
-//	$('#list').sortable({ axis: "y" });
+// make list sortable - CAN'T FIGURE THIS OUT!
+//	$('#list').sortable();
 
 });

@@ -29,8 +29,9 @@ $(document).ready(function(){
 
 // cross off items from list
 	$('#list').on('click', 'li', function(){$(this).toggleClass('strike');});
+	$('#list').on('click', 'li', function(){$(this).children('.add').toggleClass('hide');});
 
 // make list sortable - LEFT OFF WITH FIGURING THIS OUT!
-	$('#list').sortable();
+//	$('#list').sortable({ axis: "y" });
 
 });

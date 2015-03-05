@@ -82,3 +82,7 @@ h2 {
 	color: black;
 	text-decoration: line-through;
 }
+
+.hide {
+	display: none;
+}

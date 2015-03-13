@@ -26,10 +26,9 @@ $(document).ready(function(){
 	$('#list').on('click', '.delete', function(e){e.preventDefault(); $(this).parent().remove()});
 
 // cross off items and remove checkmark
-	$('#list').on('click', 'li', function(){$(this).toggleClass('strike');});
-	$('#list').on('click', 'li', function(){$(this).children('.add').toggleClass('hide');});
+	$('#list').on('click', 'li', function(){
+		$(this).toggleClass('strike').children('.add').toggleClass('hide');
+	});
 
-// make list sortable - CAN'T FIGURE THIS OUT!
-//	$('#list').sortable();
-
+	$('#list').sortable();
 });

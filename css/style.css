@@ -65,6 +65,10 @@ h2 {
  	overflow: hidden;
  }
 
+ body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
 .add {
 	height: 20px;
 	width: 20px;
